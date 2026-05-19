@@ -13,7 +13,7 @@ public class TaskFour{
         if(secondNumber > max){
             max = secondNumber;    
         }
-        else if(thirdNumber > secondNumber){
+        if(thirdNumber > secondNumber){
             max = thirdNumber;
         }
 
